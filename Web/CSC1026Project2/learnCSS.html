@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang = "en">
+	<head>
+		<title>
+			Making A Website! - Learn CSS
+		</title>
+		<meta charset = "UTF-8">
+		<link rel = "stylesheet" type = "text/css" href = "css/navigation.css">
+		<link rel = "stylesheet" type = "text/css" href = "css/main.css">
+		<link rel = "stylesheet" type = "text/css" href = "css/cards.css">
+		<script src = "js/newCards.js" defer></script>
+	</head>
+	<body>
+		<div id = "content">
+			<div id = "navigation">
+				<nav id = "navWrap">
+					<ul>
+						<li><a href = "index.html">Home</a></li>
+						<li><a href = "">Learn</a>
+						    <ul>
+						      	<li><a href = "learnHTML.html">Learn HTML</a></li>
+						      	<li><a href = "learnCSS.html">Learn CSS</a></li>
+						    </ul>
+					  	</li>
+					  	<li><a href = "">Quiz</a>
+					    	<ul>
+					      		<li><a href = "quizHTML.html">Quiz HTML</a></li>
+					      		<li><a href = "quizCSS.html">Quiz CSS</a></li>
+					    	</ul>
+					  	</li>
+						<li><a href = "HTMLEditor.html">HTML Editor</a></li>
+					</ul>
+				</nav>
+			</div>
+			<div id = "mainBody">
+				<div id = "introduction">
+					<h1 id = "title">Learning CSS</h1>
+					<h2>Introduction</h2>
+					<p>
+						Here is where you can learn all about the theory of CSS and also how to code it.<br>
+						This includes things like the different versions of CSS, different standards, the ways to implement it and other things too.
+					</p>
+					<p>
+						To use the flash cards, simply cycle through the flash cards.
+						To cycle through the cards, you can use the buttons to the left and right
+					</p>
+					<p>
+						The percentage bar underneath the card shows you how far through you are.
+					</p>
+				</div>
+				<div id = "flashCards">
+						<h2>Flash Cards</h2>
+						<div id = "cardContainer">
+								<button id = "left">Left</button>
+								<div id = "card">
+										<p id = "1">When it comes to CSS (Cascading Style Sheet), there are 3 different ways of doing it. <br>
+												  The first is inline which means that you add styling attributes to the html tag. <br>
+												  This is not the best way to do it as it means that to make a change, you would need to change very instance of it. <br>
+												  Inline CSS looks like this: <br>
+												  &#60;h1 style&#61;&#34;color:red&#59;&#34;>This is a heading&#60;&#47;h1> </p>
+										<p id = "2">The second way of doing CSS is Internal which means having the styling at the top of the HTML document. <br>
+									              This is better than inline as it allows you to change the style of a tag once and it will change all of them. <br>
+									              However, this prevents you from using the same style on multiple HTML pages without typing the same thing again in the page. <br>
+									              Internal CSS goes inside the head tags in style tags. <br>
+									              Internal CSS tags looks like this: <br>
+									              &#60;style>&#60;&#47;style> </p>
+										<p id = "3">The third and best way to write CSS is external which is when all the styling is in its own .css file. <br>
+												  This allow you to use the exact same CSS on multiple pages, preventing duplication. <br>
+												  To use external style sheets, you include the link tag in the head section. <br>
+												  The link looks like this: <br>
+								                  &#60;link rel&#61;&#34;stylesheet&#34; type&#61;&#34;text&#47;css&#34; href&#61;&#34;css&#47;navigation.css&#34;> </p>
+										<p id = "4">To style specific elements, you need to say which element you want to style. <br>
+												  This is done in a few ways. <br>
+												  First, you can just specify the tag e.g. p &#123;} <br>
+												  You can also use the id given to a HTML tag e.g. &#35;paraID&#123;} <br>
+												  You can also use the class given to a tag e.g. .paraClass&#123;} </p>
+										<p id = "5">When writing CSS, you put the selector, then in the braces &#123;} you write the actual CSS. <br>
+												  There are multiple things you can do to the tags but it depends on what it is. <br>
+												  You first specify what you want to do to the tag, put a colon, give it a value then add a semicolon to signify the end of the line. <br>
+												  For example: <br>
+												  p &#123;backround&#45;color&#58;blue;} <br>
+												  This will set the background colour of any paragraph tag in the document to blue. </p>
+										<p id = "6">You can combine the selectors to be more specific in which tag to affect <br>
+												  or to apply the same style to multiple different tags. <br>
+												  To apply the same style to multiple tags, you specify the first tag, add a comma, then the next tag. <br>
+												  For example:
+												  p, h1, h2 &#123;color&#58;red} <br>
+												  To be more specific with the tag, you just add more specifiers with no comma. <br>
+												  This example will set the colour of any paragraph inside a tag with the id divID to red : <br>
+												  &#35;divID p &#123;color&#58;red} </p>
+										<p id = "7">The more specific a rule in, the greater priority it has. This means to overwrite a rule, you need to make a more specific rule for the tag you want. <br>
+												  Specificity can be worked out by counting the number of selectors. <br>
+												  An ID is worth 100, a class is worth 10 and a tag is worth 1. <br>
+												  The example below has a priority of 102 &#40;2 tags &#43; 1 ID &#61; 2 &#43; 100 &#61; 102&#41; <br>
+												  div&#35;divID p&#123;} <br>
+												  The higher the number, the more priority it has. </p>
+										<p id = "8">When specifying the size of something, there are a few different units you can use. <br>
+												  The most common are px and &#37;. <br>
+												  Px refers to the number of pixels and is absolute meaning it doesn't change with the size of the window <br>
+												  &#37; refers to the percentage of either the container or the page and &#37; is relative meaning if the page size changes, so will the size of the item. </p>
+										<p id = "9">When specifying the colour of something, you can use a few methods. <br>
+												  There are some pre-set colours that you can use, like red, blue, black, white etc. <br>
+												  You can also use RGB like this	&#58; rgb&#40;255,0,0) <br>
+												  You can also use the hex value of a colour like this&#58; &#35;ff00ee </p>
+										<p id = "10">The CSS box model is important to understand as it allows you to know how each element is positioned and displayed. <br>
+												   The box model is made of 4 parts, the margin, border, padding and content. </p>
+										<p id = "11">The margin of an element is the white space around the edge of the item. <br>
+												   Changing this will change how much space is between the element and the other things around it. <br>
+												   You can change a specific side of the item using margin&#45;left, margin&#45;right, margin&#45;top and margin&#45;bottom. <br>
+												   Or to change the margin on all sides, you can use: <br>
+												   margin&#58; 20px&#59; </p>
+										<p id = "12">The border is the next part in after the margin. By default, it is not shown, but you can show the border if you chose to. <br>
+												   There are a few different parts to the border, the width (border-width;20px), the style (border-style:dashed) and the colour (border-color:blue). <br>
+												   However, you can change all of these in one line if needed like this: <br>
+												   border: 10px solid black; </p>
+										<p id = "13">The padding is the space between the border and the content. <br>
+												   This helps to make the item not looks so cluttered and squashed. <br>
+												   The padding sides can be changed individually using padding-left etc. <br>
+												   To change the padding on all sides, you can just use: <br>
+											 	   padding: 20px; </p>
+										<p id = "14">The content is where the stuff inside the tags go. <br>
+												   If it was a p tag, this is where the text would go. <br>
+												   When changing the size of an item using width or height, it is referring to the size of the content box. </p>
+										<p id = "15">Overflow is when the content is too much for it all to fit in the container which means it flows out of the box. <br>
+												   One of the ways this can be fixed is by hiding the overflow using overflow:hidden; which hides the extra content. <br>
+												   However, this means losing content. <br>
+												   Instead, you can use overflow:scroll; which adds a scroll bar to the container so the user can scroll and see the rest. </p>
+										<p id = "16">You can also use the visibility property to completely hide items all together. <br>
+												   This is done with visibility:hidden; and to make it visible, visibility:visible; <br>
+												   This only prevents it from being displayed. If you want the element to not be positioned either, so there is not a blank space, <br>
+												   you can use display:none; <br>
+												   There is also display:block; which keeps everything blocked and puts the item on its own line <br>
+												   and display:inline-block; which puts the item on a new line, but keeps other content on the same line. </p>
+										<p id = "17">To position elements, you can use properties such as top, bottom, left and right. <br>
+												   These allow you to position the item a certain distance from the items around it. </p>
+										<p id = "18">The natural page flow is important to consider when positioning elements as it is the order that things appear naturally without CSS. <br>
+												   Once you start to position things, you may need to override the natural page flow to make it look how you want. <br>
+												   Be careful not to do this too much as it may become confusing to work with and for those using text to speach. </p>
+										<p id = "19">You can use the float property to make items go to the left or right, ignoring the natural page flow. <br>
+												   float:left; positions the item to the left of the above items but only overlays itself ontop, and adjusts the content inside. <br>
+												   It does not actually affect the size of the other items, only makes it appear that way. </p>
+										<p id = "20">The position property helps you to position the items in the correct place. <br>
+												   You can set the position property to be static, relative, absolute or fixed. </p>
+										<p id = "21">The static value is the default for the position property meaning that unless it has been set to something different <br>
+												   elsewhere, it is not neccessary to set it. </p>
+										<p id = "22">The relative value keeps the item in the natural page flow but positions it relative to its default position. <br>
+												   This means that if you wanted it moving slightly to the right, you can do this easily. <br>
+												   This will not be useful if you want it somewhere completely different. (try not to do this) </p>
+										<p id = "23">The absolute value is used when you do not want the item in the natural page flow but instead, you want to place it somewhere specific. <br>
+			     							 	   This is not always good as it may become confusing quickly and small changes elsewhere can make it look wrong. </p>
+										<p id = "24">The fixed value is when the item is placed in relation to the window itself. <br>
+												   This could be useful if you want something to always be on the screen in a certain position, like a navigation bar. </p>
+										<p id = "25">When writing CSS it is important to consider that what you are writing may not look the same in all browsers. <br>
+												   It is first important to check if what you are doing will be compatible at all, then if it will still look how you want. </p>
+								</div>
+								<button id = "right">Right</button>
+						</div>
+						<div id = "outerProgressBar">
+							<div id = "innerProgressBar">
+									<p id = "percentage">0%</p>
+							</div>
+						</div>
+						<div id = "editorButtonContainter">
+	                        <a class = "button" href = "HTMLEditor.html">See CSS in action</a>
+	                    </div>
+						<div id = "newButtonContainer">
+							 <a class = "button" href = "quizCSS.html">Quiz CSS</a>
+						</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

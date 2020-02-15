@@ -1,0 +1,62 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/Arron/Downloads/Stage2 GitHub/Programming-Projects/c++/NewPaperGames/AccountManager.h
+
+D:/Arron/Downloads/Stage2 GitHub/Programming-Projects/c++/NewPaperGames/Battleship.h
+
+D:/Arron/Downloads/Stage2 GitHub/Programming-Projects/c++/NewPaperGames/CommonFunctions.cpp
+CommonFunctions.h
+D:/Arron/Downloads/Stage2 GitHub/Programming-Projects/c++/NewPaperGames/CommonFunctions.h
+
+D:/Arron/Downloads/Stage2 GitHub/Programming-Projects/c++/NewPaperGames/CommonFunctions.h
+
+D:/Arron/Downloads/Stage2 GitHub/Programming-Projects/c++/NewPaperGames/Connect4.h
+
+D:/Arron/Downloads/Stage2 GitHub/Programming-Projects/c++/NewPaperGames/Hangman.h
+
+D:/Arron/Downloads/Stage2 GitHub/Programming-Projects/c++/NewPaperGames/RockPaperScissors.h
+
+D:/Arron/Downloads/Stage2 GitHub/Programming-Projects/c++/NewPaperGames/TicTacToe.cpp
+iostream
+-
+TicTacToeClasses/SmallGame.cpp
+D:/Arron/Downloads/Stage2 GitHub/Programming-Projects/c++/NewPaperGames/TicTacToeClasses/SmallGame.cpp
+TicTacToeClasses/LargeGame.cpp
+D:/Arron/Downloads/Stage2 GitHub/Programming-Projects/c++/NewPaperGames/TicTacToeClasses/LargeGame.cpp
+
+D:/Arron/Downloads/Stage2 GitHub/Programming-Projects/c++/NewPaperGames/TicTacToeClasses/Board.cpp
+iostream
+-
+sstream
+-
+
+D:/Arron/Downloads/Stage2 GitHub/Programming-Projects/c++/NewPaperGames/TicTacToeClasses/LargeGame.cpp
+
+D:/Arron/Downloads/Stage2 GitHub/Programming-Projects/c++/NewPaperGames/TicTacToeClasses/SmallGame.cpp
+Board.cpp
+D:/Arron/Downloads/Stage2 GitHub/Programming-Projects/c++/NewPaperGames/TicTacToeClasses/Board.cpp
+
+D:/Arron/Downloads/Stage2 GitHub/Programming-Projects/c++/NewPaperGames/main.cpp
+iostream
+-
+CommonFunctions.cpp
+D:/Arron/Downloads/Stage2 GitHub/Programming-Projects/c++/NewPaperGames/CommonFunctions.cpp
+Hangman.h
+D:/Arron/Downloads/Stage2 GitHub/Programming-Projects/c++/NewPaperGames/Hangman.h
+RockPaperScissors.h
+D:/Arron/Downloads/Stage2 GitHub/Programming-Projects/c++/NewPaperGames/RockPaperScissors.h
+Connect4.h
+D:/Arron/Downloads/Stage2 GitHub/Programming-Projects/c++/NewPaperGames/Connect4.h
+Battleship.h
+D:/Arron/Downloads/Stage2 GitHub/Programming-Projects/c++/NewPaperGames/Battleship.h
+TicTacToe.cpp
+D:/Arron/Downloads/Stage2 GitHub/Programming-Projects/c++/NewPaperGames/TicTacToe.cpp
+AccountManager.h
+D:/Arron/Downloads/Stage2 GitHub/Programming-Projects/c++/NewPaperGames/AccountManager.h
+

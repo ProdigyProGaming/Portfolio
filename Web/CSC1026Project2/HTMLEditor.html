@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang = "en">
+	<head>
+		<title>
+			Making A Website! - HTML Editor
+		</title>
+		<meta charset = "UTF-8">
+		<link rel = "stylesheet" type = "text/css" href = "css/navigation.css">
+		<link rel = "stylesheet" type = "text/css" href = "css/main.css">
+		<script src = "js/editor.js" defer></script>
+	</head>
+	<body>
+		<div id = "content">
+			<div id = "navigation">
+				<nav id = "navWrap">
+					<ul>
+						<li><a href = "index.html">Home</a></li>
+						<li><a href = "">Learn</a>
+						    <ul>
+						      	<li><a href = "learnHTML.html">Learn HTML</a></li>
+						      	<li><a href = "learnCSS.html">Learn CSS</a></li>
+						    </ul>
+					  	</li>
+					  	<li><a href = "">Quiz</a>
+					    	<ul>
+					      		<li><a href = "quizHTML.html">Quiz HTML</a></li>
+					      		<li><a href = "quizCSS.html">Quiz CSS</a></li>
+					    	</ul>
+					  	</li>
+						<li><a href = "HTMLEditor.html">HTML Editor</a></li>
+					</ul>
+				</nav>
+			</div>
+			<div id = "mainBody">
+				<h1 id = "title">HTML Editor</h1>
+				<h2>Introduction</h2>
+				<p>
+					Here is where you can try out html coding in the browser. <br>
+					Just type the html code on the left, and the result will appear on the right if you have done it correctly. <br>
+					You can also style the html using the internal style tags. <br>
+					THIS DOES NOT WORK IN INTERNET EXPLORER! <br>
+					(You can not indent)
+				</p>
+				<div id = "editor">
+			        <div id = "first" contenteditable>
+						Add your html here!
+					</div>
+			        <iframe id = "second"></iframe>
+			    </div>
+				<div id = "editorButtonContainter">
+					<a class = "button" href = "learnHTML.html">Back to Learn HTML</a>
+					<a class = "button" href = "learnCSS.html">Back to Learn CSS</a>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

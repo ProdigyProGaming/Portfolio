@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1510848993 source:c:\users\arron\desktop\new folder\test\main.cpp
+	<iostream>
+	<limits>
+
+1511937613 source:f:\new folder\test\main.cpp
+	<iostream>
+	<limits>
+

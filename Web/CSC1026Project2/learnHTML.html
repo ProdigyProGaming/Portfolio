@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <title>
+            Making A Website! - Learn HTML
+        </title>
+        <meta charset = "UTF-8">
+        <link rel = "stylesheet" type = "text/css" href = "css/navigation.css">
+        <link rel = "stylesheet" type = "text/css" href = "css/main.css">
+        <link rel = "stylesheet" type = "text/css" href = "css/cards.css">
+        <script src = "js/newCards.js" defer></script>
+    </head>
+    <body>
+        <div id = "content">
+            <div id = "navigation">
+				<nav id = "navWrap">
+					<ul>
+						<li><a href = "index.html">Home</a></li>
+						<li><a href = "">Learn</a>
+						    <ul>
+						      	<li><a href = "learnHTML.html">Learn HTML</a></li>
+						      	<li><a href = "learnCSS.html">Learn CSS</a></li>
+						    </ul>
+					  	</li>
+					  	<li><a href = "">Quiz</a>
+					    	<ul>
+					      		<li><a href = "quizHTML.html">Quiz HTML</a></li>
+					      		<li><a href = "quizCSS.html">Quiz CSS</a></li>
+					    	</ul>
+					  	</li>
+						<li><a href = "HTMLEditor.html">HTML Editor</a></li>
+					</ul>
+				</nav>
+			</div>
+            <div id = "mainBody">
+                <div id = "introduction">
+                    <h1 id = "title">Learning HTML</h1>
+                    <h2>Introduction</h2>
+                    <p>
+						Here is where you can learn all about the theory of HTML and also how to code it.<br>
+						This includes things like the different versions of HTML, different standards, the coding tags used and other things too.
+                    </p>
+                    <p>
+						To use the flash cards, simply cycle through the flash cards.
+						To cycle through the cards, you can use the buttons to the left and right.
+                    </p>
+                    <p>
+						The percentage bar underneath the card shows you how far through you are.
+                    </p>
+                    <p>
+                        You can experiment with html coding using the editor. When a demo is available, a button will appear to take you to the demo.
+                    </p>
+                </div>
+                <div id = "flashCards">
+                    <h2>Flash Cards</h2>
+                    <div id = "cardContainer">
+                        <button id = "left">Left</button>
+                        <div id = "card">
+                            <p id = "1"> There are 5 key components to web architecture: <br>
+            			                 HTTP (HyperText Transfer Protocol) <br>
+            			 	             URI (Uniform Resource Identifier) <br>
+                    					 HTML (HyperText Markup Language) <br>
+                    					 DNS (Domain Name System) <br>
+                    					 TCP/IP (Internet Protocol Suite) </p>
+                            <p id = "2"> HTTP is the protocol used to define how messages are transmitted, formatted and also what to do with certain parts. <br>
+					                     When browsing the web, you will likely notice that the URL for the pages start with http:// (https:// in some cases). </p>
+                            <p id = "3">HTTP headers are metadata for the request. <br>
+					                    This metadata includes information such as Date, Length, Server, Cache-Control etc. </p>
+                            <p id = "4">These are the two mandatory HTTP methods: <br>
+                    				    HEAD - Gets the headers for the page without returning any content (metadata). <br>
+                    				    GET - Gets the content of the requested page along with the metadata. </p>
+                            <p id = "5">HTTP requests come in the format of: <br>
+                					    Scheme    -    Authority    -    Path    -    Query    -    Fragment <br>
+                					    https:		   //www.google.com <br>
+                					    https:		   //authority.com   /path        /?name=dog    #frag <br>
+                					    Not all the fields are required. For example, Youtube's homepage is https://www.youtube.com <br>
+                					    but a video link includes a query such as https://www.youtube.com/watch?v=PHgc8Q6qTjc </p>
+                            <p id = "6">When you type in the address, the DNS server retrieves the IP address. <br>
+                					    The browser then uses the IP address to connect to the web server. <br>
+                					    Then your browser sends the HTTP request and the server responds with the website </p>
+                            <p id = "7">When making a website, you should try to split the code into the different types. <br>
+                					    HTML (HyperText Markup Language) is used for the content and structure so it goes into one file (or multiple for different pages) <br>
+                					    CSS (Cascading Style Sheet) is mainly for the design and style of the page, so that goes into a separate file. <br>
+                					    JavaScript is for interactivity and other scripts, so it goes into its own file too. <br>
+                					    CSS and JavaScript can be split into its own smaller files too to help organise things better. </p>
+                            <p id = "8">There are 3 main parts to HTML. <br>
+                    				    The content is the text, images, video and other stuff that goes onto the page. <br>
+                    				    The elements or tags is the structure for the content and focuses on organisation. <br>
+                    				    The attributes are special additions to the elements to add more information, like an ID. <br>
+                    				    A tag looks like this &#60;html> (we will learn more about the different tags and their meanings later) </p>
+                            <p id = "9">There are a few main versions of HTML that are still used today. <br>
+                				        HTML is sort of the core of it all. HTML (and its different versions) have evolved but HTML 4 is quite common  <br>
+                					    and supports most things required for a basic site. XHTML is based heavily off HTML 4 and shares the same tags and attributes as it.  <br>
+                					    Only, XHTML was tightened up in terms of syntax. E.g tags and attributes must be lower case. <br>
+                					    HTML 5 is the newest version and it supports a lot more than the other versions as it evolved, but got rid of some older tags and attributes. (so be careful) </p>
+                            <p id = "10">The basic structure of a webpage is: <br>
+                    					 A line at the top containing HTML version information <br>
+                    					 A header section containing other information that is not displayed on the pages <br>
+                    					 A body section which contains all the other stuff that is to be shown on the page </p>
+                            <p id = "11">The line containing HTML information is what tells the browser how it is supposed to translate the HTML. <br>
+                					 	 It looks like this: <br>
+                						 &#60;&#33;DOCTYPE HTML PUBLIC &#34;&#8208;&#47;&#47;W3C&#47;&#47;DTD HTML 4.01&#47;&#47;EN&#34; &#34;http:&#47;&#47;www.w3.org&#47;TR&#47;html4&#47;strict.dtd&#34;> <br>
+                						 The first part says its a html 4.01 document and to use the W3C DTD (Document Type Definition). <br>
+                						 The second part specifies where the DTD can be found. <br>
+                						 This is basically the same for all pages, with a few differences depending on what you need. </p>
+                            <p id = "12">This DTD is important because it enables the web browser to show the HTML how the creator intended. <br>
+						                 It also means that it can be validated using online checkers to make sure it follows the rules of XHTML, or HTML 4 or which ever version chosen. </p>
+                            <p id = "13">The first line of the document should always be the version information <br>
+                					     For an XHTML document, it looks like this: <br>
+                						 &#60;&#33;DOCTYPE HTML PUBLIC &#34;&#8208;&#47;&#47;W3C&#47;&#47;DTD XHTML 1.0 Strict&#47;&#47;EN&#34; &#34;http:&#47;&#47;www.w3.org&#47;TR&#47;xhtml1&#47;DTD&#47;xhtml1&#8208;strict.dtd&#34;> <br>
+                						 However, for HTML 5, this is what it might look like: <br>
+                						 &#60;&#33;DOCTYPE html> </p>
+                            <p id = "14">The HTML tags come next and they hold all of the other stuff in the Document <br>
+                						 They look like this: <br>
+                						 &#60;html>&#60;&#47;html> <br>
+                						 As you can see, one of them is different. This is because one opens the HTML section &#60;html> and the other closes it &#60;&#47;html> </p>
+                            <p id = "15">Inside the HTML tags in the head tags. These contain stuff like the title, links to other files for CSS and JavaScript etc. <br>
+                						 None of the tags in the head tag are displayed in the page. <br>
+                						 The head tags look like this <br>
+                						 &#60;head>&#60;&#47;head> </p>
+                            <p id = "16">The title tags belong in the head tags and they specify the title on the page. <br>
+                						 This is shows at the very top inside the browser tab. <br>
+                						 The one on this page should be: Making A Website! - Learn HTML <br>
+                						 The title tags look like this: <br>
+                						 &#60;title>&#60;&#47;title> </p>
+                            <p id = "17">The link tag is used to link external CSS and JavaScript files to the current HTML page <br>
+                						 The link tag looks like this: <br>
+                				 		 &#60;link>&#60;&#47;link> <br>
+                						 An example may look like this: <br>
+                						 &#60;link rel&#61;&#34;stylesheet&#34; type&#61;&#34;text&#47;css&#34; href&#61;&#34;css&#47;navigation.css&#34;> <br>
+                						 This links a CSS page called navigation </p>
+                            <p id = "18">The body tags come after the closing tag of the head and contains the content. <br>
+                						 The body tags themselves don't show up in the page but the stuff inside does. <br>
+                						 The body tags look like this: <br>
+                						 &#60;body>&#60;&#47;body> </p>
+                            <p id = "19">Inside the body tags, there are couple of different classifications of tags. <br>
+                						 First is block level tags and they help to provide more structure to the page. <br>
+                						 For example headings and horizontal rules are block level </p>
+                            <p id = "20">Div tags are used to group together other block level tags. They become more useful the larger a page is. <br>
+                						 They help to keep things organised and neat. <br>
+                						 Div tags look like this: <br>
+                						 &#60;div>&#60;&#47;div> </p>
+                            <p id = "21">Heading tags are next and they create visible heading on the page, like the Learning HTML title at the top of this page. <br>
+                						 There are different levels of headings and it is important to follow the level order. <br>
+                						 This means you should not skip the heading by going straight to level 3. <br>
+                						 You are also not able to next them (place inside each other). <br>
+                						 The different levels are as follows: <br>
+                						 &#60;h1>&#60;&#47;h1>, &#60;h2>&#60;&#47;h2>, &#60;h3>&#60;&#47;h3>, &#60;h4>&#60;&#47;h4>, &#60;h5>&#60;&#47;h5>, &#60;h6>&#60;&#47;h6> </p>
+                            <p id = "22">Paragraph tags are what is used to hold all the content for the page. <br>
+                						 All the text you see will likely be in a paragraph tag, including this text and the text above. <br>
+                						 Paragraph tags look like this: <br>
+                						 &#60;p>&#60;&#47;p> </p>
+                            <p id = "23">Lists are next and they are useful for multiple reasons. <br>
+                						 Lists can be used to create a numbered or bullet point set of information. <br>
+                						 Lists can also be used to create the navigation bars at the top of pages, with the right formatting. <br>
+                						 To create a numbered list, you use: &#60;ol>&#60;li>&#60;&#47;li>&#60;&#47;ol> <br>
+                						 To create a bullet point list, you use: &#60;ul>&#60;li>&#60;&#47;li>&#60;&#47;ul> <br>
+                						 The li tags inside are used to specify each item, so you open and close a new one for each new item. </p>
+                            <p id = "24">Some other useful tags are &#60;hr&#47;> and &#60;br&#47;>. These tags self close as there is no content to be put inside them. <br>
+					                     The &#60;hr&#47;> tag creates a horizontal line across the page and is used to separate content. <br>
+					                     The &#60;br&#47;> tag is used to create a new line. This is used in paragraphs to separate the content. </p>
+                            <p id = "25">Inline tags are used inside block tags, usually in paragraphs and allow for more customisability of specific sections. <br>
+                						 For example, to make a specific work italic or bold, you would use inline tags. <br>
+                						 This is because if you made the p tag bold, all the text would be bold, instead of the section you want. </p>
+                            <p id = "26">Span tags are the inline equivalent of the div tags, which means that you can create a block and change it in specific way. <br>
+                						 The span tags look like this: <br>
+                						 &#60;span>&#60;&#47;span> </p>
+                            <p id = "27">To create italic text, you need to use the &#60;em> tags. <br>
+                						 This will set the text between the open and close to be italic. <br>
+                						 These are used inline, most commonly inside the p tags. <br>
+                						 The italic tags look like this: <br>
+                						 &#60;em>&#60;&#47;em> </p>
+                            <p id = "28">To create bold text, you need to use the &#60;strong> tags. <br>
+                						 This will set the text between the open and close to be bold. <br>
+                						 The bold tags look like this: <br>
+                						 &#60;strong>&#60;&#47;strong> </p>
+                            <p id = "29">Code tags are used to display sections of code on a page. <br>
+                						 This sets the text to a monospaced font and create a difference between the rest of the text. <br>
+                						 The code tags look like this: <br>
+                						 &#60;code>&#60;&#47;code> </p>
+                            <p id = "30">The acronym tag allow you to use the abbreviated form of a phrase, <br>
+                						 while also allowing the user to hover over the acronym to see the full phrase. <br>
+                						 This tag displays the text in between the tags but requires a title attribute to display when hovered. <br>
+                						 The acronym tag looks like this: <br>
+                						 &#60;acronym title&#61;&#34;&#34;>&#60;&#47;acronym> </p>
+                            <p id = "31">The link tags is used to send users to another site or page. <br>
+                						 Once you specify the location to go to, once it is clicked, it will send the user there. <br>
+                						 This requires a href tag to specify the location. <br>
+                						 The link tags look like this: <br>
+                						 &#60;a href&#61;&#34;&#34;>&#60;&#47;a> </p>
+                            <p id = "32">Each tag has its own attributes that it can be used with and they provide addition information to the tag. <br>
+                						 The most common are class and id as these are used with pretty much all tags. <br>
+                						 The attribute goes after specifying what tag it is but before the closing of the open tag. <br>
+                						 &#60;div class&#61;&#34;&#34;>&#60;&#47;div> </p>
+                            <p id = "33">The class attribute gives the tag a class. <br>
+                						 This means that when writing CSS, a specified style will be applied. <br>
+                						 The class attribute can be used as many times in a html document. <br>
+                						 The class attribute looks like this: <br>
+                						 class&#61;&#34;&#34; </p>
+                            <p id = "34">The id attribute is similar to class in that it is used to give an identifier to the tag. <br>
+                						 The main difference is that you can only have one of a specified id in the html document, <br>
+                						 meaning all ids must be unique. <br>
+                						 The is attribute looks like this: <br>
+                						 id&#61;&#34;&#34; </p>
+                            <p id = "35">The image tag is used to add images to the page. <br>
+                						 The image tag uses a src attribute to specify where the image to be used is. <br>
+                						 The image tag can be styled using CSS but if not, it will be the original size of the image to be careful. <br>
+                						 The image tag looks like this: <br>
+                						 &#60;img src&#61;&#34;&#34;>&#60;&#47;img> </p>
+                            <p id = "36">There are a few different types of video tags, each requiring specific information. <br>
+                						 IFrame is the most common for embeding youtube videos as that is the format youtube gives the embed code in. <br>
+                						 The different types of tags are: <br>
+                						 &#60;embed>&#60;&#47;embed>, &#60;object>&#60;&#47;object>, &#60;video>&#60;&#47;video>, &#60;iframe>&#60;&#47;iframe> </p>
+                        </div>
+                        <button id = "right">Right</button>
+                    </div>
+                    <div id = "outerProgressBar">
+                        <div id = "innerProgressBar">
+                            <p id = "percentage">0%</p>
+                        </div>
+                    </div>
+                    <div id = "editorButtonContainter">
+                        <a class = "button" href = "HTMLEditor.html">See HTML in action</a>
+                    </div>
+                    <div id = "newButtonContainer">
+	                     <a class = "button" href = "quizHTML.html">Quiz HTML</a>
+                         <a class = "button" href = "learnCSS.html">Learn CSS</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

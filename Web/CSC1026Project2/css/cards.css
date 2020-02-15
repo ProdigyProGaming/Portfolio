@@ -1,0 +1,55 @@
+/*Flash card section container*/
+#flashCards {
+	position: relative;
+	width: 100%;
+	height: 300px;
+}
+/*Div holding cards*/
+#card {
+	position: relative;
+	width: 75%;
+	z-index: 0;
+	text-align: center;
+	background-color: Gray;
+	display: inline-block;
+	vertical-align: middle;
+	min-height: 160px;
+	height: 100%;
+	color: white;
+}
+/*Div holding cards and left and right buttons*/
+#cardContainer {
+	text-align: center;
+	min-height: 50%;
+}
+/*Lef and right buttons*/
+#left,
+#right {
+	display: inline-block;
+	width: 100px;
+	margin: 1%;
+	background-color: gray;
+	color: white;
+	padding: 1%;
+}
+/*Left and right button hover*/
+#left:hover,
+#right:hover {
+	background-color: #b5b5b5;
+}
+/*Progress bar holder*/
+#outerProgressBar {
+	width: 90%;
+	background-color: #cccccc;
+	margin-left: 5%;
+}
+/*Progress bar that moves*/
+#innerProgressBar {
+	background-color: Gray;
+	width: 0%;
+}
+/*Percentage value*/
+#percentage {
+	text-align: center;
+	color: white;
+}

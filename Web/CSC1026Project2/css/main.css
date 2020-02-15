@@ -1,0 +1,60 @@
+/*Title*/
+#title {
+	text-align: center;
+}
+/*Buttons linking to other pages*/
+.button {
+	color: white;
+	text-decoration: none;
+	line-height: 32px;
+	margin: 10px;
+	padding: 5px 15px;
+	background-color: gray;
+	width: 15%;
+	text-align: center;
+	display: inline-block;
+}
+/*Button hover*/
+.button:hover {
+	background-color: #b5b5b5;
+}
+/*Content container*/
+#mainBody {
+	padding: 1% 5% 5% 5%;
+	min-width: 1000px;
+}
+/*Container for appearing buttons*/
+#newButtonContainer {
+	text-align: center;
+	display: none;
+}
+/*Container for appearing buttons in editor*/
+#editorButtonContainter {
+	text-align: center;
+}
+/*Editor container*/
+#editor {
+	z-index: -1;
+	background-color: black;
+	display: flex;
+	width: 100%;
+	padding: 0.5%;
+	height: 60vh;
+	justify-content: center;
+	align-items: center;
+}
+/*Left side of editor*/
+#first {
+	width: 50%;
+	height: 100%;
+	background-color: #ffffff;
+	display: block;
+	overflow: scroll;
+}
+/*Right side of editor*/
+#second {
+	width: 50%;
+	height: 100%;
+	background-color: #ffffff;
+	display: block;
+}

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang = "en">
+	<head>
+		<title>
+			Making A Website! - HTML Quiz
+		</title>
+		<meta charset = "UTF-8">
+		<link rel = "stylesheet" type = "text/css" href = "css/navigation.css">
+		<link rel = "stylesheet" type = "text/css" href = "css/main.css">
+		<link rel = "stylesheet" type = "text/css" href = "css/quiz.css">
+		<link rel = "stylesheet" type = "text/css" href = "css/cards.css">
+		<script src = "js/htmlQuiz.js" defer></script>
+		<script src = "js/newQuiz.js" defer></script>
+	</head>
+	<body>
+		<div id = "content">
+			<div id = "navigation">
+				<nav id = "navWrap">
+					<ul>
+						<li><a href = "index.html">Home</a></li>
+						<li><a href = "">Learn</a>
+						    <ul>
+						      	<li><a href = "learnHTML.html">Learn HTML</a></li>
+						      	<li><a href = "learnCSS.html">Learn CSS</a></li>
+						    </ul>
+					  	</li>
+					  	<li><a href = "">Quiz</a>
+					    	<ul>
+					      		<li><a href = "quizHTML.html">Quiz HTML</a></li>
+					      		<li><a href = "quizCSS.html">Quiz CSS</a></li>
+					    	</ul>
+					  	</li>
+						<li><a href = "HTMLEditor.html">HTML Editor</a></li>
+					</ul>
+				</nav>
+			</div>
+			<div id = "mainBody">
+				<div id = "introduction">
+					<h1 id = "title">HTML Quiz</h1>
+					<h2>Introduction</h2>
+					<p>
+						Here is where you can test your knowledge on the theory and coding of HTML. <br>
+						This questions cover all of the things from the revision and also may ask questions that require you to apply the knowledge in a scenario.
+					</p>
+				</div>
+				<div id = "flashCards">
+					<h2>Question</h2>
+					<div id = "questionContainer">
+						<p id = "1">What does HTML stand for?</p>
+						<p id = "2">Which section comes first?</p>
+						<p id = "3">Which of these tags belongs in the head?</p>
+						<p id = "4">Which of these is not a block level tag?</p>
+						<p id = "5">Which of these is the proper way to create a list?</p>
+						<p id = "6">Which of these creates a new line?</p>
+						<p id = "7">Which of these sets the text to be italic?</p>
+						<p id = "8">Which of these is the proper way to create a hyperlink?</p>
+						<p id = "9">An ID can be used how many times in one HTML document?</p>
+						<p id = "10">Which of these is the proper way to add an image?</p>
+					</div>
+					<div id = "answers">
+						<button id = "a1">a1</button>
+						<button id = "a2">a2</button>
+						<button id = "a3">a3</button>
+						<button id = "a4">a4</button>
+					</div>
+					<div id = "outerProgressBar">
+						<div id = "innerProgressBar">
+								<p id = "percentage">0%</p>
+						</div>
+					</div>
+					<div id = "newButtonContainer">
+                         <a class = "button" href = "learnCSS.html">Learn CSS</a>
+						 <a class = "button" href = "quizCSS.html">Quiz CSS</a>
+                    </div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

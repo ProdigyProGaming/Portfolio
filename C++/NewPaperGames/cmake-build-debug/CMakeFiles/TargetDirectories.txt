@@ -1,0 +1,3 @@
+D:/Arron/Downloads/Stage2 GitHub/Programming-Projects/c++/NewPaperGames/cmake-build-debug/CMakeFiles/NewPaperGames.dir
+D:/Arron/Downloads/Stage2 GitHub/Programming-Projects/c++/NewPaperGames/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/Arron/Downloads/Stage2 GitHub/Programming-Projects/c++/NewPaperGames/cmake-build-debug/CMakeFiles/rebuild_cache.dir

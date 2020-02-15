@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang = "en">
+	<head>
+		<title>
+			Making A Website!
+		</title>
+		<meta charset = "UTF-8">
+		<link rel = "stylesheet" type = "text/css" href = "css/navigation.css">
+		<link rel = "stylesheet" type = "text/css" href = "css/main.css">
+		<script src = "js/form.js" defer></script>
+	</head>
+	<body>
+		<div id = "content">
+			<div id = "navigation">
+				<nav id = "navWrap">
+					<ul>
+						<li><a href = "index.html">Home</a></li>
+						<li><a href = "">Learn</a>
+						    <ul>
+						      	<li><a href = "learnHTML.html">Learn HTML</a></li>
+						      	<li><a href = "learnCSS.html">Learn CSS</a></li>
+						    </ul>
+					  	</li>
+					  	<li><a href = "">Quiz</a>
+					    	<ul>
+					      		<li><a href = "quizHTML.html">Quiz HTML</a></li>
+					      		<li><a href = "quizCSS.html">Quiz CSS</a></li>
+					    	</ul>
+					  	</li>
+						<li><a href = "HTMLEditor.html">HTML Editor</a></li>
+					</ul>
+				</nav>
+			</div>
+			<div id = "mainBody">
+				<div id = "introduction">
+					<h1 id = "title">Making a Website</h1>
+					<h2>Introduction</h2>
+					<p>
+						Hello! Thank you for visiting this site! <br>
+						This was created by me (Arron Rawstron) to aid those wanting to learn all about HTML and CSS. This website will give you a way to learn a little about the history, theory and also how to code your own website. This website is intended to be either brief revision of key points or a brief overview of the basics. This is not an indepth explanation on the details of everything. <br>
+						This site starts at the very basics, so if your quite familiar with HTML and CSS, this website may not provide much information that is new to you. However, it's always a good idea to return to basics now and again.
+						For those who are completely new to making websites, I encourage you to look over the material first, then testing your knowledge using the quizes. <br>
+						Now, enough talking. Feel free to explore to site and learn all about websites.
+						If you need anything, feel free to contact me either via Phone during office hours (GMT), via email or using the submission form. <br>
+						Thanks for reading!
+					</p>
+				</div>
+				<div id = "links">
+					<h2>Links to pages</h2>
+					<p>
+						These two links will take you to the relevant pages for learning about the theory of the desired topic and also the basics of coding it. <br>
+						<a class = "button" href = "learnHTML.html">Learn HTML</a>
+						<a class = "button" href = "learnCSS.html">Learn CSS</a>
+					</p>
+					<p>
+						These two links will take you to the pages where you can test your knowledge via multiple choice questions all about the basics of what you will need to create a basic website. <br>
+						<a class = "button" href = "quizHTML.html">Quiz HTML</a>
+						<a class = "button" href = "quizCSS.html">Quiz CSS</a>
+					</p>
+				</div>
+				<div id = "contactUs">
+					<h2>Contact Us</h2>
+					<form id = "form" method = "get" action = "https://internal.cs.ncl.ac.uk/modules/2018-19/csc1026/scripts/formscript.php">
+						<fieldset><legend>About You</legend>
+							Your Name: *<br>
+							<input type = "text" name = "username" /> <br>
+							Email: *<br>
+							<input type = "text" name = "email" /> <br>
+							Phone Number: <br>
+							<input type = "text" name = "tel" /> <br>
+						</fieldset>
+						<fieldset><legend>Query</legend>
+							Enter your Query: *<br>
+							<textarea name = "query" rows = "10" cols = "50"></textarea>
+						</fieldset>
+						<fieldset><legend>Submit</legend>
+							<input type = "submit" value = "Submit Info" />
+						</fieldset>
+					</form>
+					<fieldset><legend>About Me</legend>
+						Name: Arron Rawstron <br>
+						Email: A.Rawstron@ncl.ac.uk <br>
+						Telephone Number: 07123456789 <br>
+					</fieldset>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
