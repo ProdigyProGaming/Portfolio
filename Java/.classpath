@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="Basic Sorting Algorithms/src"/>
+	<classpathentry kind="src" path="Glass Cutting/src"/>
+	<classpathentry kind="src" path="Sandwich Builder/src"/>
+	<classpathentry kind="src" path="Tax Calculator/src"/>
+	<classpathentry kind="src" path="Telephone Directory/src"/>
+	<classpathentry kind="output" path="Basic Sorting Algorithms/bin"/>
+</classpath>

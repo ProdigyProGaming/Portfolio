@@ -13,7 +13,7 @@ public class Bar
     int width;
     private int xPosition;
     private int yPosition;
-    private Colour colour;
+    private Color colour;
     private boolean isVisible;
 
     /**
@@ -25,7 +25,7 @@ public class Bar
         width = 60;
         xPosition = 60;
         yPosition = 50;
-        colour = Colour.RED;
+        colour = colour.RED;
         isVisible = false;
     }
 
@@ -168,7 +168,7 @@ public class Bar
      * Change the colour.
      * @param newColour  the  colour for the bar
      */
-    public void changeColour(Colour newColour)
+    public void changeColour(Color newColour)
     {
         colour = newColour;
         draw();
@@ -180,8 +180,8 @@ public class Bar
     private void draw()
     {
         if(isVisible) {
-            Canvas canvas = Canvas.getCanvas();
-            canvas.draw(this, colour.toString().toLowerCase(),
+            Canvas canvas = new Canvas();
+            ((Object) canvas).draw(this, colour.toString().toLowerCase(),
                         new Rectangle(xPosition, yPosition, width, height));
             canvas.wait(10);
         }
