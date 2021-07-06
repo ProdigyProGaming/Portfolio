@@ -1,0 +1,492 @@
+fileFormatVersion: 2
+guid: 554636cd9d7cd0c4cb304d0fbda6de14
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7221872167390913553
+    second: RocketModel1.1Blue
+  - first:
+      213: 1839789925886298512
+    second: RocketModel1.2Red
+  - first:
+      213: -7240271980468854440
+    second: RocketModel1.3Pink
+  - first:
+      213: 7137652640525095004
+    second: RocketModel1.4Green
+  - first:
+      213: 9065686862928334180
+    second: RocketModel2.1Blue
+  - first:
+      213: 5692043910022654039
+    second: RocketModel2.2Red
+  - first:
+      213: 7428868574316672005
+    second: RocketModel2.3Pink
+  - first:
+      213: -8852473230715970200
+    second: RocketModel2.4Green
+  - first:
+      213: 1854394296326894896
+    second: RocketModel3.1Blue
+  - first:
+      213: -6596699626403297709
+    second: RocketModel3.2Red
+  - first:
+      213: -2139993385402327652
+    second: RocketModel3.3Pink
+  - first:
+      213: -8735760435744367965
+    second: RocketModel3.4Green
+  - first:
+      213: 5996512392585295128
+    second: RocketModel4.1Blue
+  - first:
+      213: 3809068265213855783
+    second: RocketModel4.2Red
+  - first:
+      213: -1689686301209574961
+    second: RocketModel4.3Pink
+  - first:
+      213: -9161166408746160954
+    second: RocketModel4.4Green
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: RocketModel1.1Blue
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 1977
+        width: 474
+        height: 486
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 114ad9e197e393460800000000000000
+      internalID: 7221872167390913553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RocketModel1.2Red
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 1978
+        width: 474
+        height: 485
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0998bc1a03f388910800000000000000
+      internalID: 1839789925886298512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RocketModel1.3Pink
+      rect:
+        serializedVersion: 2
+        x: 1062
+        y: 1978
+        width: 475
+        height: 485
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 851a0fe8ef2658b90800000000000000
+      internalID: -7240271980468854440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RocketModel1.4Green
+      rect:
+        serializedVersion: 2
+        x: 1559
+        y: 1977
+        width: 473
+        height: 486
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5090a872490e0360800000000000000
+      internalID: 7137652640525095004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RocketModel2.1Blue
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 1228
+        width: 387
+        height: 644
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46dc4c57b2acfcd70800000000000000
+      internalID: 9065686862928334180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RocketModel2.2Red
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 1228
+        width: 387
+        height: 644
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75863d647c33efe40800000000000000
+      internalID: 5692043910022654039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RocketModel2.3Pink
+      rect:
+        serializedVersion: 2
+        x: 1097
+        y: 1228
+        width: 387
+        height: 644
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5043537cb94a81760800000000000000
+      internalID: 7428868574316672005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RocketModel2.4Green
+      rect:
+        serializedVersion: 2
+        x: 1601
+        y: 1228
+        width: 387
+        height: 644
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86d1583cf72b52580800000000000000
+      internalID: -8852473230715970200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RocketModel3.1Blue
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 564
+        width: 485
+        height: 544
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 035331a99c12cb910800000000000000
+      internalID: 1854394296326894896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RocketModel3.2Red
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 568
+        width: 486
+        height: 544
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 356874ef3a0d374a0800000000000000
+      internalID: -6596699626403297709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RocketModel3.3Pink
+      rect:
+        serializedVersion: 2
+        x: 1072
+        y: 563
+        width: 485
+        height: 545
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9d9869aa573d42e0800000000000000
+      internalID: -2139993385402327652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RocketModel3.4Green
+      rect:
+        serializedVersion: 2
+        x: 1579
+        y: 564
+        width: 485
+        height: 544
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3aa9b80fa2854c680800000000000000
+      internalID: -8735760435744367965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RocketModel4.1Blue
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 97
+        width: 501
+        height: 370
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 815364b0044e73350800000000000000
+      internalID: 5996512392585295128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RocketModel4.2Red
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 97
+        width: 501
+        height: 370
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7280949e7678cd430800000000000000
+      internalID: 3809068265213855783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RocketModel4.3Pink
+      rect:
+        serializedVersion: 2
+        x: 1077
+        y: 97
+        width: 501
+        height: 370
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc14f8ae2470d88e0800000000000000
+      internalID: -1689686301209574961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RocketModel4.4Green
+      rect:
+        serializedVersion: 2
+        x: 1587
+        y: 97
+        width: 501
+        height: 370
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cca17e60bffcd080800000000000000
+      internalID: -9161166408746160954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

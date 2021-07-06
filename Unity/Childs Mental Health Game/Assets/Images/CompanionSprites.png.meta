@@ -1,0 +1,504 @@
+fileFormatVersion: 2
+guid: c7c374887f0bf5b40bff1922aa5f8bcc
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8364790981828671678
+    second: CompanionModel1.1White
+  - first:
+      213: 2932367965849609155
+    second: CompanionModel1.2Green
+  - first:
+      213: -5329665963162645411
+    second: CompanionModel1.3Orange
+  - first:
+      213: 4433819280538434593
+    second: CompanionModel1.4Pink
+  - first:
+      213: -223864411509039182
+    second: CompanionModel2.1White
+  - first:
+      213: -5318781465878249469
+    second: CompanionModel2.2Green
+  - first:
+      213: 3072586930921960493
+    second: CompanionModel2.3Orange
+  - first:
+      213: -1327948235932842920
+    second: CompanionModel2.4Pink
+  - first:
+      213: -3880338749545666966
+    second: CompanionModel3.1White
+  - first:
+      213: 8722499456938660905
+    second: CompanionModel3.2Green
+  - first:
+      213: 3179940218923138630
+    second: CompanionModel3.3Orange
+  - first:
+      213: 3648209889917586699
+    second: CompanionModel3.4Pink
+  - first:
+      213: -7413551157890576356
+    second: CompanionModel4.1White
+  - first:
+      213: 1681262281361367113
+    second: CompanionModel4.2Green
+  - first:
+      213: 147282362626777914
+    second: CompanionModel4.3Orange
+  - first:
+      213: -6971291885893067118
+    second: CompanionModel4.4Pink
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: CompanionModel1.1White
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1454
+        width: 390
+        height: 524
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24706bbabea4aeb80800000000000000
+      internalID: -8364790981828671678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompanionModel1.2Green
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 1454
+        width: 390
+        height: 524
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c3633be02dd1b820800000000000000
+      internalID: 2932367965849609155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompanionModel1.3Orange
+      rect:
+        serializedVersion: 2
+        x: 863
+        y: 1454
+        width: 390
+        height: 524
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5c43365b093906b0800000000000000
+      internalID: -5329665963162645411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompanionModel1.4Pink
+      rect:
+        serializedVersion: 2
+        x: 1305
+        y: 1454
+        width: 390
+        height: 524
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12c75cee427188d30800000000000000
+      internalID: 4433819280538434593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompanionModel2.1White
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 1019
+        width: 359
+        height: 389
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bfd62af08ca4ecf0800000000000000
+      internalID: -223864411509039182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompanionModel2.2Green
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 1019
+        width: 359
+        height: 389
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3004568df64ef26b0800000000000000
+      internalID: -5318781465878249469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompanionModel2.3Orange
+      rect:
+        serializedVersion: 2
+        x: 894
+        y: 1019
+        width: 359
+        height: 389
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d247c1fc88504aa20800000000000000
+      internalID: 3072586930921960493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompanionModel2.4Pink
+      rect:
+        serializedVersion: 2
+        x: 1321
+        y: 1019
+        width: 359
+        height: 389
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 854cd1d7d1e229de0800000000000000
+      internalID: -1327948235932842920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompanionModel3.1White
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 556
+        width: 309
+        height: 398
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a66a5295774462ac0800000000000000
+      internalID: -3880338749545666966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompanionModel3.2Green
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 556
+        width: 309
+        height: 398
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 924dd54da0b8c0970800000000000000
+      internalID: 8722499456938660905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompanionModel3.3Orange
+      rect:
+        serializedVersion: 2
+        x: 915
+        y: 556
+        width: 309
+        height: 398
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64e34e3f7ca612c20800000000000000
+      internalID: 3179940218923138630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompanionModel3.4Pink
+      rect:
+        serializedVersion: 2
+        x: 1354
+        y: 556
+        width: 309
+        height: 398
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0dca9ad09b01a230800000000000000
+      internalID: 3648209889917586699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompanionModel4.1White
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 33
+        width: 377
+        height: 493
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c101fb52086cd1990800000000000000
+      internalID: -7413551157890576356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompanionModel4.2Green
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 33
+        width: 377
+        height: 493
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 940aece132b055710800000000000000
+      internalID: 1681262281361367113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompanionModel4.3Orange
+      rect:
+        serializedVersion: 2
+        x: 908
+        y: 33
+        width: 377
+        height: 493
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a33ac0a47804b0200800000000000000
+      internalID: 147282362626777914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CompanionModel4.4Pink
+      rect:
+        serializedVersion: 2
+        x: 1307
+        y: 33
+        width: 377
+        height: 493
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29ed7cb17fef04f90800000000000000
+      internalID: -6971291885893067118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

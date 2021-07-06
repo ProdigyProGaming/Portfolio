@@ -1,0 +1,537 @@
+fileFormatVersion: 2
+guid: 06a63b888bcd4864c825822dfbe48580
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 9127540072873889443
+    second: CharacterModel2.1White
+  - first:
+      213: 2344722433246163122
+    second: CharacterModel1.1White
+  - first:
+      213: 8570224095701795681
+    second: CharacterModel1.2Red
+  - first:
+      213: 2706711660286164953
+    second: CharacterModel2.1White
+  - first:
+      213: 2069864625926326827
+    second: CharacterModel1.1White
+  - first:
+      213: -3769739310742726075
+    second: 3PlayerBlue
+  - first:
+      213: 6272689735511161180
+    second: CharacterModel1.2Red
+  - first:
+      213: 2956232791772798473
+    second: CharacterModel1.3Blue
+  - first:
+      213: -7962671983875357135
+    second: CharacterModel2.3Blue
+  - first:
+      213: -4650249919913520349
+    second: CharacterModel1.4Green
+  - first:
+      213: 6108889748984888641
+    second: CharacterModel2.4Green
+  - first:
+      213: -4116228090016002613
+    second: CharacterModel3.1White
+  - first:
+      213: -7496477192105531878
+    second: CharacterModel3.2Red
+  - first:
+      213: -696766126366530359
+    second: CharacterModel3.3Blue
+  - first:
+      213: 2384357462432692825
+    second: CharacterModel3.4Green
+  - first:
+      213: -7746348888403668560
+    second: Character Sprites_12
+  - first:
+      213: 5511141222258351290
+    second: CharacterModel4.1White
+  - first:
+      213: 8694646616118094125
+    second: CharacterModel4.2Red
+  - first:
+      213: 8269896668517826369
+    second: CharacterModel4.3Blue
+  - first:
+      213: -3897141841343304541
+    second: CharacterModel4.4Green
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: CharacterModel2.2Red
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 1235
+        width: 330
+        height: 450
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c59b16f84121d0750800000000000000
+      internalID: 6272689735511161180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterModel2.1White
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1235
+        width: 327
+        height: 450
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ae8ac426598bae70800000000000000
+      internalID: 9127540072873889443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterModel1.1White
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1701
+        width: 340
+        height: 459
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b0f68251a02a8020800000000000000
+      internalID: 2344722433246163122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterModel1.2Red
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 1701
+        width: 342
+        height: 459
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1638cc5786d8fe670800000000000000
+      internalID: 8570224095701795681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterModel1.3Blue
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 1701
+        width: 343
+        height: 459
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90e9af2bf06a60920800000000000000
+      internalID: 2956232791772798473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterModel2.3Blue
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 1235
+        width: 330
+        height: 450
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 136872ac408ee7190800000000000000
+      internalID: -7962671983875357135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterModel1.4Green
+      rect:
+        serializedVersion: 2
+        x: 1045
+        y: 1688
+        width: 348
+        height: 472
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32314cef55ef67fb0800000000000000
+      internalID: -4650249919913520349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterModel2.4Green
+      rect:
+        serializedVersion: 2
+        x: 1055
+        y: 1235
+        width: 330
+        height: 450
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14df4444cd227c450800000000000000
+      internalID: 6108889748984888641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterModel3.1White
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 753
+        width: 339
+        height: 446
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcd8c106c5830e6c0800000000000000
+      internalID: -4116228090016002613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterModel3.2Red
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 753
+        width: 342
+        height: 447
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a166bb936b927f790800000000000000
+      internalID: -7496477192105531878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterModel3.3Blue
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 753
+        width: 341
+        height: 447
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c4e56256e69456f0800000000000000
+      internalID: -696766126366530359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterModel3.4Green
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 753
+        width: 342
+        height: 446
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95a3addaa70f61120800000000000000
+      internalID: 2384357462432692825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Character Sprites_12
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 537
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b115785ab07f7490800000000000000
+      internalID: -7746348888403668560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterModel4.1White
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 265
+        width: 357
+        height: 443
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abc98bb0eb18b7c40800000000000000
+      internalID: 5511141222258351290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterModel4.2Red
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 255
+        width: 349
+        height: 453
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d296549f70799a870800000000000000
+      internalID: 8694646616118094125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterModel4.3Blue
+      rect:
+        serializedVersion: 2
+        x: 742
+        y: 265
+        width: 358
+        height: 443
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14ff038443394c270800000000000000
+      internalID: 8269896668517826369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CharacterModel4.4Green
+      rect:
+        serializedVersion: 2
+        x: 1108
+        y: 255
+        width: 376
+        height: 453
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3acab6ba4229ae9c0800000000000000
+      internalID: -3897141841343304541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

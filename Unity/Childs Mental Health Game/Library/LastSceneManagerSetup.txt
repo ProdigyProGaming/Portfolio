@@ -1,0 +1,5 @@
+sceneSetups:
+- path: Assets/Scenes/Planets/Planet 5/5.2 - Activities.unity
+  isLoaded: 1
+  isActive: 1
+  isSubScene: 0
