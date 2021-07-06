@@ -1,0 +1,20 @@
+﻿  FruitWizardGame.cpp
+D:\Arron\Github\Stage 3\CSC3222 Gaming Simulations\CSC3222 Release 2020\CSC3222\CSC3222Coursework 2020 2021\FruitWizardGame.cpp(100,55): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\Arron\Github\Stage 3\CSC3222 Gaming Simulations\CSC3222 Release 2020\CSC3222\CSC3222Coursework 2020 2021\FruitWizardGame.cpp(100,38): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\Arron\Github\Stage 3\CSC3222 Gaming Simulations\CSC3222 Release 2020\CSC3222\CSC3222Coursework 2020 2021\FruitWizardGame.cpp(161,63): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\Arron\Github\Stage 3\CSC3222 Gaming Simulations\CSC3222 Release 2020\CSC3222\CSC3222Coursework 2020 2021\FruitWizardGame.cpp(161,46): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\Arron\Github\Stage 3\CSC3222 Gaming Simulations\CSC3222 Release 2020\CSC3222\CSC3222Coursework 2020 2021\FruitWizardGame.cpp(176,63): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\Arron\Github\Stage 3\CSC3222 Gaming Simulations\CSC3222 Release 2020\CSC3222\CSC3222Coursework 2020 2021\FruitWizardGame.cpp(176,46): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\Arron\Github\Stage 3\CSC3222 Gaming Simulations\CSC3222 Release 2020\CSC3222\CSC3222Coursework 2020 2021\FruitWizardGame.cpp(212,60): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\Arron\Github\Stage 3\CSC3222 Gaming Simulations\CSC3222 Release 2020\CSC3222\CSC3222Coursework 2020 2021\FruitWizardGame.cpp(212,43): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\Arron\Github\Stage 3\CSC3222 Gaming Simulations\CSC3222 Release 2020\CSC3222\CSC3222Coursework 2020 2021\FruitWizardGame.cpp(268,63): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\Arron\Github\Stage 3\CSC3222 Gaming Simulations\CSC3222 Release 2020\CSC3222\CSC3222Coursework 2020 2021\FruitWizardGame.cpp(268,46): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\Arron\Github\Stage 3\CSC3222 Gaming Simulations\CSC3222 Release 2020\CSC3222\CSC3222Coursework 2020 2021\FruitWizardGame.cpp(306,22): warning C4018: '<': signed/unsigned mismatch
+D:\Arron\Github\Stage 3\CSC3222 Gaming Simulations\CSC3222 Release 2020\CSC3222\CSC3222Coursework 2020 2021\FruitWizardGame.cpp(355,21): warning C4018: '<': signed/unsigned mismatch
+D:\Arron\Github\Stage 3\CSC3222 Gaming Simulations\CSC3222 Release 2020\CSC3222\CSC3222Coursework 2020 2021\FruitWizardGame.cpp(529,59): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\Arron\Github\Stage 3\CSC3222 Gaming Simulations\CSC3222 Release 2020\CSC3222\CSC3222Coursework 2020 2021\FruitWizardGame.cpp(529,40): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  Guard.cpp
+D:\Arron\Github\Stage 3\CSC3222 Gaming Simulations\CSC3222 Release 2020\CSC3222\CSC3222Coursework 2020 2021\Guard.cpp(59,23): warning C4305: '=': truncation from 'double' to 'float'
+D:\Arron\Github\Stage 3\CSC3222 Gaming Simulations\CSC3222 Release 2020\CSC3222\CSC3222Coursework 2020 2021\Guard.cpp(92,26): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  Generating Code...
+  CSC3222 2020.vcxproj -> D:\Arron\Github\Stage 3\CSC3222 Gaming Simulations\CSC3222 Release 2020\Win32\Debug\CSC3222 2020.exe

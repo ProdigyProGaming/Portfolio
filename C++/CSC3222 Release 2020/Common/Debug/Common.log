@@ -1,0 +1,31 @@
+﻿  Assets.cpp
+  Camera.cpp
+  GameTimer.cpp
+  Keyboard.cpp
+  Maths.cpp
+  Matrix2.cpp
+  Matrix3.cpp
+  Matrix4.cpp
+  MeshAnimation.cpp
+  MeshGeometry.cpp
+  MeshMaterial.cpp
+  Mouse.cpp
+  Plane.cpp
+  Quaternion.cpp
+  RendererBase.cpp
+  ShaderBase.cpp
+  SimpleFont.cpp
+  TextureBase.cpp
+  TextureLoader.cpp
+  TextureWriter.cpp
+  Generating Code...
+  Compiling...
+  Vector2.cpp
+  Vector3.cpp
+  Vector4.cpp
+  Win32Keyboard.cpp
+  Win32Mouse.cpp
+  Win32Window.cpp
+  Window.cpp
+  Generating Code...
+  Common.vcxproj -> D:\Arron\Github\Stage 3\CSC3222 Gaming Simulations\CSC3222 Release 2020\Win32\Debug\Common.lib

@@ -1,0 +1,4 @@
+D:\Arron\Downloads\CSC3222 Release 2020\Win32\Debug\OpenGLRendering.pdb
+D:\Arron\Downloads\CSC3222 Release 2020\Plugins\OpenGLRendering\Debug\OpenGLRendering.pdb
+D:\Arron\Github\Stage 3\CSC3222 Gaming Simulations\CSC3222 Release 2020\Win32\Debug\OpenGLRendering.pdb
+D:\Arron\Github\Stage 3\CSC3222 Gaming Simulations\CSC3222 Release 2020\Plugins\OpenGLRendering\Debug\OpenGLRendering.pdb
